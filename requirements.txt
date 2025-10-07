@@ -1,0 +1,30 @@
+# Web Framework
+Flask
+Werkzeug
+Jinja2
+itsdangerous
+click
+MarkupSafe
+
+# Core Data/ML Libraries (Crucial for .pkl files)
+scikit-learn==1.6.1
+joblib
+numpy
+scipy
+pandas
+
+# Dependencies of Pandas/Scikit-learn
+python-dateutil
+pytz
+tzdata
+six
+threadpoolctl
+
+# Optional: Server for Production (Highly Recommended)
+gunicorn
+
+# Clean up any Conda-specific dependencies if they aren't strictly needed 
+# by your code and are only in the environment for performance/default setup.
+# If your ML pipeline relies on the mkl optimized libs, they should be
+# managed by the host environment (e.g., in a full Conda installation).
+# For standard pip installs, keep the core libraries above.

@@ -1,0 +1,31 @@
+# Python Byte-Compiled Files
+__pycache__/
+*.py[cod]
+
+# Virtual Environment and Conda-specific Folders
+.venv/
+venv/
+env/
+# The specific directory where your Conda environment lives, 
+# if it is *inside* your project folder.
+# Example:
+# my_flask_env/
+# .conda/ 
+
+# Operating System Files
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# Temporary files and logs
+*.log
+*.sqlite3 # If you use a local database (like a default Flask/Django setup)
+instance/ # Flask's default instance folder for configuration/db files
+
+# IDE/Editor Specific Files (Example: VS Code)
+.vscode/
+
+# Security & Credentials
+# This is crucial! Never commit security keys, tokens, or configuration.
+*.env
+.flaskenv
+config.pyc
